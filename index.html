@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>فصيل شرطة هوميلاند</title>
+    <style>
+        :root {
+            --gold: #d4af37;
+            --black-bg: #0a0a0a;
+            --box-bg: #111111;
+        }
+
+        body {
+            background-color: var(--black-bg);
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* مكان الصورة في الأعلى */
+        .header-image {
+            width: 100%;
+            max-width: 500px;
+            height: 220px;
+            background-color: #151515;
+            border: 2px solid var(--gold);
+            border-radius: 12px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 25px;
+            overflow: hidden;
+            box-shadow: 0 0 15px rgba(212, 175, 55, 0.1);
+        }
+
+        .header-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* الأزرار الرئيسية */
+        .action-box {
+            width: 100%;
+            max-width: 450px;
+            background-color: var(--box-bg);
+            border: 1px solid rgba(212, 175, 55, 0.6);
+            border-radius: 8px;
+            padding: 16px;
+            margin-bottom: 15px;
+            text-align: center;
+            text-decoration: none;
+            color: var(--gold);
+            transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s;
+        }
+
+        .action-box:hover {
+            transform: scale(1.01);
+            border-color: var(--gold);
+            box-shadow: 0 0 12px rgba(212, 175, 55, 0.25);
+        }
+
+        /* حجم العناوين المصغر */
+        .action-box h2 {
+            margin: 0 0 6px 0;
+            font-size: 1.25rem;
+            font-weight: 600;
+        }
+
+        /* حجم النص التوضيحي المصغر */
+        .action-box p {
+            margin: 0;
+            color: #b3b3b3;
+            font-size: 0.85rem;
+        }
+
+        /* الفوتر المصغر */
+        footer {
+            margin-top: 35px;
+            color: #666;
+            font-size: 0.8rem;
+            letter-spacing: 0.5px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- مكان الصورة (استبدل الرابط أدناه برابط صورتك لاحقاً) -->
+    <div class="header-image">
+        <img src="ange.png" alt="صورة فصيل شرطة هوميلاند">
+    </div>
+
+    <!-- الزر الأول (مايكرو) -->
+    <a href="https://abhomeland.github.io/a_b-Homeland/" class="action-box">
+        <h2>مايكرو الخاص بفصيل شرطة هوميلاند</h2>
+        <p>قائمة الأوامر والانتهاكات الكاملة للفصيل</p>
+    </a>
+
+    <!-- الزر الثاني (دليل ومتطلبات الترقية بالرابط الجديد) -->
+    <a href="https://abhomeland.github.io/-/" class="action-box">
+        <h2>دليل و متطلبات الترقية في فصيل شرطة هوميلاند</h2>
+        <p>الأنظمة والتعليمات والقوانين الإرشادية والترقيات</p>
+    </a>
+
+    <!-- حقوق المطور -->
+    <footer>
+        تم إنشاء هذا الموقع بواسطة Im Iraqi
+    </footer>
+
+</body>
+</html>
